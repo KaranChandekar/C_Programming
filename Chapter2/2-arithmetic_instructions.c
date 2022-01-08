@@ -31,5 +31,10 @@ int main() {
 
     printf("The value of 4 to the power 5 is %f \n", pow(4, 5));    // this will produce 4 ^ 5, need to add math.h, need to write %f because it returns a double value
 
+    // Type conversion 
+    printf("The sum of 5 and 6 %d \n", 5 + 6);   // int + int = int
+    printf("The sum of 5 and 6.5 %f \n", 5 + 6.5);   // int + float = float
+    printf("The sum of 5.4 and 6.7 %f \n", 5.4 + 6.7);   // float + float = float
+
     return 0;
 }
